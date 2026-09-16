@@ -1,69 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="Pappu Kumar - Full Stack Python and UI Developer Portfolio"
-    >
+      name="description"
+      content="Pappu Kumar - Full Stack Python and UI Developer Portfolio"
+    />
 
     <title>Pappu Kumar | Portfolio</title>
 
     <!-- Google Font -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
->
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Typed.js -->
     <script
-        src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"
-        defer
+      src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"
+      defer
     ></script>
 
     <!-- JavaScript -->
     <script src="scripts.js" defer></script>
-</head>
+  </head>
 
-<body>
-
-<!-- =====================================================
+  <body>
+    <!-- =====================================================
      HEADER / NAVBAR
 ===================================================== -->
 
-<header class="header">
+    <header class="header">
+      <a href="#home" class="logo"> Portfolio </a>
 
-    <a href="#home" class="logo">
-        Portfolio
-    </a>
-
-    <button
+      <button
         class="menu-toggle"
         id="menu-toggle"
         aria-label="Open navigation menu"
         aria-expanded="false"
         type="button"
-    >
+      >
         <i class="fa-solid fa-bars"></i>
-    </button>
+      </button>
 
-    <nav class="navbar" id="navbar">
-
+      <nav class="navbar" id="navbar">
         <a href="#home" class="active">Home</a>
 
         <a href="#about">About</a>
@@ -75,849 +66,567 @@
         <a href="#skills-section">Skills</a>
 
         <a href="#contactForm">Contact</a>
+      </nav>
+    </header>
 
-    </nav>
-
-</header>
-
-
-<!-- =====================================================
+    <!-- =====================================================
      HOME SECTION
 ===================================================== -->
 
-<main>
+    <main>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hello, It's Me</h3>
 
-<section class="home" id="home">
+          <h1>Pappu Kumar</h1>
 
-    <div class="home-content">
-
-        <h3>Hello, It's Me</h3>
-
-        <h1>Pappu Kumar</h1>
-
-        <h3>
+          <h3>
             And I'm a
             <span class="text"></span>
-        </h3>
+          </h3>
 
-        <p>
-            I'm a UI/Python developer with a strong foundation in
-            Python, Java, Spring Boot, Angular, HTML, CSS, JavaScript,
-            and responsive design. Eager to leverage my skills in
-            building user-friendly and accessible web applications.
-        </p>
+          <p>
+            I'm a UI/Python developer with a strong foundation in Python, Java,
+            Spring Boot, Angular, HTML, CSS, JavaScript, and responsive design.
+            Eager to leverage my skills in building user-friendly and accessible
+            web applications.
+          </p>
 
-        <!-- Social Links -->
-        <div class="home-sci">
-
+          <!-- Social Links -->
+          <div class="home-sci">
             <a
-                href="https://www.facebook.com/pappukumar620"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
+              href="https://www.facebook.com/pappukumar620"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
             >
-                <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-facebook"></i>
             </a>
 
             <a
-                href="https://x.com/PappuGo30762083"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Twitter"
+              href="https://x.com/PappuGo30762083"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter"
             >
-                <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-twitter"></i>
             </a>
 
             <a
-                href="https://www.instagram.com/impappu00/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
+              href="https://www.instagram.com/im.pappu_0/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
             >
-                <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-instagram"></i>
             </a>
 
             <a
-                href="https://www.linkedin.com/in/impappu00/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
+              href="https://www.linkedin.com/in/impappu00/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
             >
-                <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-linkedin"></i>
             </a>
 
             <a
-                href="#contact"
-                aria-label="WhatsApp"
+              href="https://wa.me/916207004891"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
             >
-                <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-whatsapp"></i>
             </a>
+          </div>
 
+          <a href="#about" class="btn-box"> More About Me </a>
         </div>
+      </section>
 
-        <a href="#about" class="btn-box">
-            More About Me
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
+      <!-- =====================================================
      ABOUT SECTION
 ===================================================== -->
 
-<section class="about" id="about">
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="imags/pk.png" alt="Pappu Kumar profile" />
+        </div>
 
-    <div class="about-img">
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
 
-        <img
-            src="imags/pk.png"
-            alt="Pappu Kumar profile"
-        >
+          <h4>Full Stack Developer!</h4>
 
-    </div>
+          <p>
+            I'm Pappu Kumar. I have completed B.Tech with specialization in
+            Computer Science from Roorkee College of Engineering. I have
+            expertise in FullStack development technologies such as Python,
+            Django, Java, Spring Boot, JavaScript, HTML, CSS, MySQL.
+          </p>
 
-    <div class="about-text">
+          <p>
+            I am passionate about full-stack development and have worked on
+            various academic projects. I am eager to contribute to a dynamic
+            organization while continuously learning and growing in the field of
+            software development.
+          </p>
 
-        <h2>
-            About <span>Me</span>
-        </h2>
+          <a href="#contactForm" class="btn-box"> Contact Me </a>
+        </div>
+      </section>
 
-        <h4>
-            Full Stack Developer!
-        </h4>
-
-        <p>
-            I'm Pappu Kumar. I have completed B.Tech with
-            specialization in Computer Science from Roorkee College
-            of Engineering. I have expertise in FullStack development
-            technologies such as Python, Django, Java, Spring Boot,
-            JavaScript, HTML, CSS, MySQL.
-        </p>
-
-      
-
-        <p>
-            I am passionate about full-stack development and have
-            worked on various academic projects. I am eager to
-            contribute to a dynamic organization while continuously
-            learning and growing in the field of software development.
-        </p>
-
-        <a href="#contactForm" class="btn-box">
-            Contact Me
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
+      <!-- =====================================================
      SERVICES SECTION
 ===================================================== -->
 
-<section class="services" id="services">
+      <section class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
 
-    <div class="container">
-
-        <h1 class="sub-title">
-            My <span>Services</span>
-        </h1>
-
-        <div class="services-list">
-
+          <div class="services-list">
             <!-- Service 1 -->
             <div class="service-card">
+              <i class="fa-brands fa-python service-icon"></i>
 
-                <i class="fa-brands fa-python service-icon"></i>
+              <h2>UI/Python Developer</h2>
 
-                <h2>
-                    UI/Python Developer
-                </h2>
+              <p>
+                I develop modern and responsive user interfaces along with
+                Python-based applications. I focus on creating clean, accessible
+                and user-friendly applications.
+              </p>
 
-                <p>
-                    I develop modern and responsive user interfaces
-                    along with Python-based applications. I focus on
-                    creating clean, accessible and user-friendly
-                    applications.
-                </p>
-
-                <a href="#contact" class="read">
-                    Learn More
-                </a>
-
+              <a href="#contact" class="read"> Learn More </a>
             </div>
-
 
             <!-- Service 2 -->
             <div class="service-card">
+              <i class="fa-solid fa-code service-icon"></i>
 
-                <i class="fa-solid fa-code service-icon"></i>
+              <h2>Python Developer</h2>
 
-                <h2>
-                    Python Developer
-                </h2>
+              <p>
+                I work with Python and backend technologies to create functional
+                web applications, APIs and database-driven solutions.
+              </p>
 
-                <p>
-                    I work with Python and backend technologies to
-                    create functional web applications, APIs and
-                    database-driven solutions.
-                </p>
-
-                <a href="#contact" class="read">
-                    Learn More
-                </a>
-
+              <a href="#contact" class="read"> Learn More </a>
             </div>
-
 
             <!-- Service 3 -->
             <div class="service-card">
+              <i class="fa-solid fa-crop-simple service-icon"></i>
 
-                <i class="fa-solid fa-crop-simple service-icon"></i>
+              <h2>Frontend Developer</h2>
 
-                <h2>
-                    Frontend Developer
-                </h2>
+              <p>
+                I create responsive frontend applications using Angular, HTML,
+                CSS and JavaScript with a focus on responsive design and user
+                experience.
+              </p>
 
-                <p>
-                    I create responsive frontend applications using
-                    Angular, HTML, CSS and JavaScript with a focus on
-                    responsive design and user experience.
-                </p>
-
-                <a href="#contact" class="read">
-                    Learn More
-                </a>
-
+              <a href="#contact" class="read"> Learn More </a>
             </div>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-
-</section>
-
-
-<!-- =====================================================
+      <!-- =====================================================
      EXPERIENCE SECTION
 ===================================================== -->
 
-<section class="experience" id="experience">
+      <section class="experience" id="experience">
+        <div class="experience-container">
+          <h1 class="sub-title">My <span>Experience</span></h1>
 
-    <div class="experience-container">
-
-        <h1 class="sub-title">
-            My <span>Experience</span>
-        </h1>
-
-
-        <!-- Experience 1 -->
-        <div class="experience-card">
-
+          <!-- Experience 1 -->
+          <div class="experience-card">
             <div class="experience-icon">
-
-                <i class="fa-solid fa-briefcase"></i>
-
+              <i class="fa-solid fa-briefcase"></i>
             </div>
-
 
             <div class="experience-content">
+              <div class="experience-header">
+                <div>
+                  <h2>Software Development Intern</h2>
 
-                <div class="experience-header">
-
-                    <div>
-
-                        <h2>
-                            Software Development Intern
-                        </h2>
-
-                        <h3>
-                            Hexaware Technologies
-                        </h3>
-
-                    </div>
-
-                    <span class="experience-status">
-                        Completed
-                    </span>
-
+                  <h3>Hexaware Technologies</h3>
                 </div>
 
+                <span class="experience-status"> Completed </span>
+              </div>
 
-                <p class="experience-duration">
+              <p class="experience-duration">
+                <i class="fa-regular fa-calendar"></i>
 
-                    <i class="fa-regular fa-calendar"></i>
+                Internship Experience
+              </p>
 
-                    Internship Experience
+              <p>
+                Successfully completed my internship at Hexaware Technologies,
+                where I gained practical exposure to software development and
+                real-world application development practices.
+              </p>
 
-                </p>
+              <p>
+                During my internship, I strengthened my programming knowledge
+                and developed a better understanding of professional software
+                development workflows.
+              </p>
 
+              <p>
+                I worked with modern development technologies and focused on
+                developing user-friendly, responsive and functional
+                applications.
+              </p>
 
-                <p>
-                    Successfully completed my internship at Hexaware
-                    Technologies, where I gained practical exposure to
-                    software development and real-world application
-                    development practices.
-                </p>
-
-                <p>
-                    During my internship, I strengthened my programming
-                    knowledge and developed a better understanding of
-                    professional software development workflows.
-                </p>
-
-                <p>
-                    I worked with modern development technologies and
-                    focused on developing user-friendly, responsive and
-                    functional applications.
-                </p>
-
-
-                <div class="experience-tech">
-
-                    <span>Python</span>
-                    <span>Java</span>
-                    <span>Spring Boot</span>
-                    <span>Angular</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>MySQL</span>
-                    <span>PostgreSQL</span>
-                    <span>Web Development</span>
-
-                </div>
-
+              <div class="experience-tech">
+                <span>Python</span>
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Angular</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>Web Development</span>
+              </div>
             </div>
+          </div>
 
-        </div>
-
-
-        <!-- Experience 2 -->
-        <div class="experience-card">
-
+          <!-- Experience 2 -->
+          <div class="experience-card">
             <div class="experience-icon">
-
-                <i class="fa-solid fa-graduation-cap"></i>
-
+              <i class="fa-solid fa-graduation-cap"></i>
             </div>
-
 
             <div class="experience-content">
+              <div class="experience-header">
+                <div>
+                  <h2>Full Stack Python Development Training</h2>
 
-                <div class="experience-header">
-
-                    <div>
-
-                        <h2>
-                            Full Stack Python Development Training
-                        </h2>
-
-                        <h3>
-                            Naresh IT
-                        </h3>
-
-                    </div>
-
-                    <span class="experience-status">
-                        Completed
-                    </span>
-
+                  <h3>Naresh IT</h3>
                 </div>
 
+                <span class="experience-status"> Completed </span>
+              </div>
 
-                <p class="experience-duration">
+              <p class="experience-duration">
+                <i class="fa-regular fa-calendar"></i>
 
-                    <i class="fa-regular fa-calendar"></i>
+                Training Experience
+              </p>
 
-                    Training Experience
+              <p>
+                Completed comprehensive training in Full Stack Python
+                Development, gaining practical knowledge of both front-end and
+                back-end web development.
+              </p>
 
-                </p>
+              <p>
+                Developed a strong understanding of building responsive web
+                applications, creating dynamic user interfaces, developing
+                backend functionality with Python and Django, and managing
+                databases using MySQL.
+              </p>
 
-
-                <p>
-                    Completed comprehensive training in Full Stack
-                    Python Development, gaining practical knowledge
-                    of both front-end and back-end web development.
-                </p>
-
-                <p>
-                    Developed a strong understanding of building
-                    responsive web applications, creating dynamic
-                    user interfaces, developing backend functionality
-                    with Python and Django, and managing databases
-                    using MySQL.
-                </p>
-
-
-                <div class="experience-tech">
-
-                    <span>Python</span>
-                    <span>Django</span>
-                    <span>Angular</span>
-                    <span>MySQL</span>
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
-                    <span>Bootstrap</span>
-
-                </div>
-
+              <div class="experience-tech">
+                <span>Python</span>
+                <span>Django</span>
+                <span>Angular</span>
+                <span>MySQL</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+              </div>
             </div>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-
-</section>
-
-
-<!-- =====================================================
+      <!-- =====================================================
      SKILLS SECTION
 ===================================================== -->
 
-<section id="skills-section">
+      <section id="skills-section">
+        <div class="skills-wrapper">
+          <h2>My <span>Skills</span></h2>
 
-    <div class="skills-wrapper">
-
-        <h2>
-            My <span>Skills</span>
-        </h2>
-
-
-        <div class="skills-container">
-
-
+          <div class="skills-container">
             <!-- LEFT COLUMN -->
 
             <div class="skills-column">
+              <!-- Python -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>Python</h3>
 
-                <!-- Python -->
-                <div class="skill">
-
-                    <div class="skill-header">
-
-                        <h3>Python</h3>
-
-                        <span>90%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 90%;"
-                        ></div>
-
-                    </div>
-
+                  <span>90%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 90%"></div>
+                </div>
+              </div>
 
-                <!-- Django -->
-                <div class="skill">
+              <!-- Django -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>Django</h3>
 
-                    <div class="skill-header">
-
-                        <h3>Django</h3>
-
-                        <span>85%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 85%;"
-                        ></div>
-
-                    </div>
-
+                  <span>85%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 85%"></div>
+                </div>
+              </div>
 
-                <!-- Angular -->
-                <div class="skill">
+              <!-- Angular -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>Angular</h3>
 
-                    <div class="skill-header">
-
-                        <h3>Angular</h3>
-
-                        <span>80%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 80%;"
-                        ></div>
-
-                    </div>
-
+                  <span>80%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 80%"></div>
+                </div>
+              </div>
 
-                <!-- Java -->
-                <div class="skill">
+              <!-- Java -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>Java</h3>
 
-                    <div class="skill-header">
-
-                        <h3>Java</h3>
-
-                        <span>70%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 70%;"
-                        ></div>
-
-                    </div>
-
+                  <span>70%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 70%"></div>
+                </div>
+              </div>
 
-                <!-- Spring Boot -->
-                <div class="skill">
+              <!-- Spring Boot -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>Spring Boot</h3>
 
-                    <div class="skill-header">
-
-                        <h3>Spring Boot</h3>
-
-                        <span>70%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 70%;"
-                        ></div>
-
-                    </div>
-
+                  <span>70%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 70%"></div>
+                </div>
+              </div>
 
-                <!-- Rest API -->
-                <div class="skill">
+              <!-- Rest API -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>REST API</h3>
 
-                    <div class="skill-header">
-
-                        <h3>REST API</h3>
-
-                        <span>60%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 60%;"
-                        ></div>
-
-                    </div>
-
+                  <span>60%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 60%"></div>
+                </div>
+              </div>
 
-                <!-- HTML -->
-                <div class="skill">
+              <!-- HTML -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>HTML</h3>
 
-                    <div class="skill-header">
-
-                        <h3>HTML</h3>
-
-                        <span>95%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 95%;"
-                        ></div>
-
-                    </div>
-
+                  <span>95%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 95%"></div>
+                </div>
+              </div>
             </div>
-
 
             <!-- RIGHT COLUMN -->
 
             <div class="skills-column">
+              <!-- CSS -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>CSS</h3>
 
-                <!-- CSS -->
-                <div class="skill">
-
-                    <div class="skill-header">
-
-                        <h3>CSS</h3>
-
-                        <span>90%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 90%;"
-                        ></div>
-
-                    </div>
-
+                  <span>90%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 90%"></div>
+                </div>
+              </div>
 
-                <!-- JavaScript -->
-                <div class="skill">
+              <!-- JavaScript -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>JavaScript</h3>
 
-                    <div class="skill-header">
-
-                        <h3>JavaScript</h3>
-
-                        <span>75%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 75%;"
-                        ></div>
-
-                    </div>
-
+                  <span>75%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 75%"></div>
+                </div>
+              </div>
 
-                <!-- Bootstrap -->
-                <div class="skill">
+              <!-- Bootstrap -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>Bootstrap</h3>
 
-                    <div class="skill-header">
-
-                        <h3>Bootstrap</h3>
-
-                        <span>85%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 85%;"
-                        ></div>
-
-                    </div>
-
+                  <span>85%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 85%"></div>
+                </div>
+              </div>
 
-                <!-- MySQL -->
-                <div class="skill">
+              <!-- MySQL -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>MySQL</h3>
 
-                    <div class="skill-header">
-
-                        <h3>MySQL</h3>
-
-                        <span>80%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 80%;"
-                        ></div>
-
-                    </div>
-
+                  <span>80%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 80%"></div>
+                </div>
+              </div>
 
-                <!-- MongoDB -->
-                <div class="skill">
+              <!-- MongoDB -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>MongoDB</h3>
 
-                    <div class="skill-header">
-
-                        <h3>MongoDB</h3>
-
-                        <span>50%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 50%;"
-                        ></div>
-
-                    </div>
-
+                  <span>50%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 50%"></div>
+                </div>
+              </div>
 
-                <!-- PostgreSQL -->
-                <div class="skill">
+              <!-- PostgreSQL -->
+              <div class="skill">
+                <div class="skill-header">
+                  <h3>PostgreSQL</h3>
 
-                    <div class="skill-header">
-
-                        <h3>PostgreSQL</h3>
-
-                        <span>40%</span>
-
-                    </div>
-
-                    <div class="progress-bar">
-
-                        <div
-                            class="progress"
-                            style="--progress: 40%;"
-                        ></div>
-
-                    </div>
-
+                  <span>40%</span>
                 </div>
 
+                <div class="progress-bar">
+                  <div class="progress" style="--progress: 40%"></div>
+                </div>
+              </div>
             </div>
-
+          </div>
         </div>
+      </section>
+      <br />
 
-    </div>
-
-</section>
-<br>
-
-
-<!-- =====================================================
+      <!-- =====================================================
      CONTACT SECTION
 ===================================================== -->
 
-<form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-
-    <input
-        type="hidden"
-        name="access_key"
-        value="119f83d9-8767-4547-8771-2f75e554b732"
-    >
-
-    <input
-        type="hidden"
-        name="subject"
-        value="New Message From Portfolio"
-    >
-
-    <div class="form-group">
-
-        <label for="fullName">Full Name</label>
+      <form
+        id="contactForm"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="119f83d9-8767-4547-8771-2f75e554b732"
+        />
 
         <input
+          type="hidden"
+          name="subject"
+          value="New Message From Portfolio"
+        />
+
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+
+          <input
             type="text"
             id="fullName"
             name="fullName"
             placeholder="Enter your full name"
             required
-        >
+          />
+        </div>
 
-    </div>
+        <div class="form-group">
+          <label for="mobile">Mobile Number</label>
 
-    <div class="form-group">
-
-        <label for="mobile">Mobile Number</label>
-
-        <input
+          <input
             type="tel"
             id="mobile"
             name="mobile"
             placeholder="Enter 10 digit mobile number"
             maxlength="10"
             required
-        >
+          />
+        </div>
 
-    </div>
+        <div class="form-group">
+          <label for="email">Email</label>
 
-    <div class="form-group">
-
-        <label for="email">Email</label>
-
-        <input
+          <input
             type="email"
             id="email"
             name="email"
             placeholder="Enter your email"
             required
-        >
+          />
+        </div>
 
-    </div>
+        <div class="form-group">
+          <label for="message">Messages</label>
 
-    <div class="form-group">
-
-        <label for="message">Messages</label>
-
-        <textarea
+          <textarea
             id="message"
             name="message"
             rows="5"
             placeholder="Write your message..."
             required
-        ></textarea>
+          ></textarea>
+        </div>
 
-    </div>
+        <button type="submit" class="submit-btn" id="submitBtn">
+          <i class="fa-solid fa-paper-plane"></i>
+          Send Message
+        </button>
 
-    <button
-        type="submit"
-        class="submit-btn"
-        id="submitBtn"
-    >
-        <i class="fa-solid fa-paper-plane"></i>
-        Send Message
-    </button>
+        <p id="statusMsg" role="status" aria-live="polite"></p>
+      </form>
 
-    <p
-        id="statusMsg"
-        role="status"
-        aria-live="polite"
-    ></p>
-
-</form>
-
-
-
-<!-- =====================================================
+      <!-- =====================================================
      BACK TO TOP
 ===================================================== -->
 
-<a
-    href="#home"
-    class="back-to-top"
-    id="backToTop"
-    aria-label="Back to top"
->
-    <i class="fa-solid fa-arrow-up"></i>
-</a>
-
-</main>
-
-</body>
+      <a
+        href="#home"
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+      >
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </main>
+  </body>
 </html>

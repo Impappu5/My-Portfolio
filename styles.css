@@ -1242,7 +1242,7 @@ button[type="submit"]:hover {
     .form-group input,
     .form-group textarea {
         font-size: 15px;
-        padding: 12px;
+        padding: 11px;
     }
 }
 
